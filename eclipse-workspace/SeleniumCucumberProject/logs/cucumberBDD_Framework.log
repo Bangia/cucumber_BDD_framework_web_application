@@ -1,0 +1,87 @@
+2021-10-24 13:42:15 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:42:15 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:42:21 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:42:21 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:42:44 INFO  Cucumber BDD Framework !!!:115 - ********** Starting Adding new Customer **********
+2021-10-24 13:42:44 INFO  Cucumber BDD Framework !!!:124 - ********** Saving Customer data **********
+2021-10-24 13:42:50 INFO  Cucumber BDD Framework !!!:75 - ********** Test case finished closing browser **********
+2021-10-24 13:42:52 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:42:52 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:42:57 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:42:57 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:43:09 INFO  Cucumber BDD Framework !!!:141 - ********** Searching a Customer by email id **********
+2021-10-24 13:43:13 INFO  Cucumber BDD Framework !!!:75 - ********** Test case finished closing browser **********
+2021-10-24 13:43:14 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:43:14 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:43:19 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:43:20 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:43:33 INFO  Cucumber BDD Framework !!!:166 - ********** searching customer by name **********
+2021-10-24 13:43:37 INFO  Cucumber BDD Framework !!!:75 - ********** Test case finished closing browser **********
+2021-10-24 13:43:39 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:43:39 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:43:44 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:43:44 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:43:51 INFO  Cucumber BDD Framework !!!:60 - ********** Login Failed !!! **********
+2021-10-24 13:43:51 INFO  Cucumber BDD Framework !!!:68 - ********** Clicking logout link  **********
+2021-10-24 13:43:58 INFO  Cucumber BDD Framework !!!:60 - ********** Login Failed !!! **********
+2021-10-24 13:43:58 INFO  Cucumber BDD Framework !!!:75 - ********** Test case finished closing browser **********
+2021-10-24 13:44:00 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:44:00 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:44:05 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:44:05 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:44:11 INFO  Cucumber BDD Framework !!!:60 - ********** Login Failed !!! **********
+2021-10-24 13:44:11 INFO  Cucumber BDD Framework !!!:68 - ********** Clicking logout link  **********
+2021-10-24 13:44:19 INFO  Cucumber BDD Framework !!!:60 - ********** Login Failed !!! **********
+2021-10-24 13:44:19 INFO  Cucumber BDD Framework !!!:75 - ********** Test case finished closing browser **********
+2021-10-24 13:44:20 INFO  Cucumber BDD Framework !!!:26 - ********** Launching URL **********
+2021-10-24 13:44:20 INFO  Cucumber BDD Framework !!!:32 - ********** Opening URL **********
+2021-10-24 13:44:25 INFO  Cucumber BDD Framework !!!:40 - ********** Providing login details **********
+2021-10-24 13:44:25 INFO  Cucumber BDD Framework !!!:47 - ********** click login Button **********
+2021-10-24 13:44:27 INFO  Cucumber BDD Framework !!!:56 - ********** Login Passed !!! **********
+2021-10-25 21:01:00 INFO  Cucumber BDD Framework !!!:39 - ********** Launching Chrome Browser **********
+2021-10-25 21:01:00 INFO  Cucumber BDD Framework !!!:53 - ********** Launching URL **********
+2021-10-25 21:01:00 INFO  Cucumber BDD Framework !!!:65 - ********** Opening URL **********
+2021-10-25 21:01:05 INFO  Cucumber BDD Framework !!!:73 - ********** Providing login details **********
+2021-10-25 21:01:05 INFO  Cucumber BDD Framework !!!:80 - ********** click login Button **********
+2021-10-25 21:01:14 INFO  Cucumber BDD Framework !!!:93 - ********** Login Failed !!! **********
+2021-10-25 21:01:14 INFO  Cucumber BDD Framework !!!:101 - ********** Clicking logout link  **********
+2021-10-25 21:01:20 INFO  Cucumber BDD Framework !!!:93 - ********** Login Failed !!! **********
+2021-10-25 21:01:20 INFO  Cucumber BDD Framework !!!:108 - ********** Test case finished closing browser **********
+2021-10-25 21:01:22 INFO  Cucumber BDD Framework !!!:39 - ********** Launching Chrome Browser **********
+2021-10-25 21:01:22 INFO  Cucumber BDD Framework !!!:53 - ********** Launching URL **********
+2021-10-25 21:01:22 INFO  Cucumber BDD Framework !!!:65 - ********** Opening URL **********
+2021-10-25 21:01:28 INFO  Cucumber BDD Framework !!!:73 - ********** Providing login details **********
+2021-10-25 21:01:28 INFO  Cucumber BDD Framework !!!:80 - ********** click login Button **********
+2021-10-25 21:01:38 INFO  Cucumber BDD Framework !!!:93 - ********** Login Failed !!! **********
+2021-10-25 21:01:38 INFO  Cucumber BDD Framework !!!:101 - ********** Clicking logout link  **********
+2021-10-25 21:01:43 INFO  Cucumber BDD Framework !!!:93 - ********** Login Failed !!! **********
+2021-10-25 21:01:43 INFO  Cucumber BDD Framework !!!:108 - ********** Test case finished closing browser **********
+2021-10-25 21:01:45 INFO  Cucumber BDD Framework !!!:39 - ********** Launching Chrome Browser **********
+2021-10-25 21:01:45 INFO  Cucumber BDD Framework !!!:53 - ********** Launching URL **********
+2021-10-25 21:01:45 INFO  Cucumber BDD Framework !!!:65 - ********** Opening URL **********
+2021-10-25 21:01:50 INFO  Cucumber BDD Framework !!!:73 - ********** Providing login details **********
+2021-10-25 21:01:50 INFO  Cucumber BDD Framework !!!:80 - ********** click login Button **********
+2021-10-25 21:01:52 INFO  Cucumber BDD Framework !!!:89 - ********** Login Passed !!! **********
+2021-10-26 19:00:07 INFO  Cucumber BDD Framework !!!:38 - ********** Launching Chrome Browser **********
+2021-10-26 19:00:07 INFO  Cucumber BDD Framework !!!:52 - ********** Launching URL **********
+2021-10-26 19:00:07 INFO  Cucumber BDD Framework !!!:64 - ********** Opening URL **********
+2021-10-26 19:00:12 INFO  Cucumber BDD Framework !!!:72 - ********** Providing login details **********
+2021-10-26 19:00:12 INFO  Cucumber BDD Framework !!!:79 - ********** click login Button **********
+2021-10-26 19:00:19 INFO  Cucumber BDD Framework !!!:92 - ********** Login Failed !!! **********
+2021-10-26 19:00:19 INFO  Cucumber BDD Framework !!!:100 - ********** Clicking logout link  **********
+2021-10-26 19:00:25 INFO  Cucumber BDD Framework !!!:92 - ********** Login Failed !!! **********
+2021-10-26 19:00:25 INFO  Cucumber BDD Framework !!!:107 - ********** Test case finished closing browser **********
+2021-10-26 19:04:06 INFO  Cucumber BDD Framework !!!:38 - ********** Launching Chrome Browser **********
+2021-10-26 19:04:06 INFO  Cucumber BDD Framework !!!:52 - ********** Launching URL **********
+2021-10-26 19:04:07 INFO  Cucumber BDD Framework !!!:64 - ********** Opening URL **********
+2021-10-26 19:04:12 INFO  Cucumber BDD Framework !!!:72 - ********** Providing login details **********
+2021-10-26 19:04:12 INFO  Cucumber BDD Framework !!!:79 - ********** click login Button **********
+2021-10-26 19:04:25 INFO  Cucumber BDD Framework !!!:173 - ********** Searching a Customer by email id **********
+2021-10-26 19:04:30 INFO  Cucumber BDD Framework !!!:107 - ********** Test case finished closing browser **********
+2021-10-26 19:04:32 INFO  Cucumber BDD Framework !!!:38 - ********** Launching Chrome Browser **********
+2021-10-26 19:04:32 INFO  Cucumber BDD Framework !!!:52 - ********** Launching URL **********
+2021-10-26 19:04:32 INFO  Cucumber BDD Framework !!!:64 - ********** Opening URL **********
+2021-10-26 19:04:37 INFO  Cucumber BDD Framework !!!:72 - ********** Providing login details **********
+2021-10-26 19:04:37 INFO  Cucumber BDD Framework !!!:79 - ********** click login Button **********
+2021-10-26 19:04:51 INFO  Cucumber BDD Framework !!!:198 - ********** searching customer by name **********
+2021-10-26 19:04:54 INFO  Cucumber BDD Framework !!!:107 - ********** Test case finished closing browser **********
