@@ -1,0 +1,212 @@
+Cucumber Framework 
+
+Session-1 : Demo session 
+----------------------------
+What is Test Driven Development (TDD) V/s Behavior Driven Development (BDD)
+BDD Tools - Cucumber , SpecFlow
+Cucumber Introduction
+Intellij Cucumber Plugin
+Cucumber Feature File
+Cucumber Step Definition File
+Junit Test Runner Class file
+Gherkin Keywords
+
+
+Selenium + Cucumber
+
+eclipse - IDE
+Maven - pom.xml (Add all required dependencies)
+
+Step 1 : Install IDE example eclipse ide or intellij
+
+Step 2 : create maven project
+
+Step 3 : updtae pom.xml with all required cucumber and selenium dependies
+
+cucumber-core
+cucumber-html
+cobertura
+cucumber-java
+cucumber-jUnit
+cucumber-jvm-deps
+cucumber-reporting
+hamcrest-core
+gherkin
+
+selenium-java
+junit
+
+Step 4 : Install Cucumber in Eclipse
+
+Step 5 : Go to file --> Select Other --> select maven --> Maven Project select apache.maven.artifacts and click Finish
+
+Step 6 : We need to add cucumber plugin for eclipse from Help menu --> eclipse market place --> search Cucumber
+Both Natural & Cucumber eclipse plugin need to install 
+
+
+>>Feature File : The entry Point is feature file
+extension of file will be .feature example : login.feature
+Gherkin --> Language which contains certain number of keywords..
+
+Feature
+Scenario
+
+Given - Step is used to set the context.
+When - Step is the action / interaction with the system ie Conditional Statements
+Then - Step for presenting the outcome ie results or Output
+And - Step for extending the previous step.
+
+>>Step Definitions : 
+
+>>Test Runner Class --> called as Junit class or Main class to execute feature file in case need to run multiple feature file.
+
+To install drivers : https://chromedriver.storage.googleapis.com/index.html?path=95.0.4638.17/
+
+>>Test Runner File : Used to run multiple feature files.
+
+
+==========================================================
+SESSION -2 : Hybrid Framework (Selenium with Java) 
+==========================================================
+
+Project URL : https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+Email_Id: admin@yourstore.com
+Password: admin
+
+Create Folder Structure
+
+Note : If created Java related classes you have to create a packages.
+
+Project Name
+	|
+	Features (Folder) - Done added
+	|
+	pageObjects (Package) - Done added
+	|
+	Step Definitions (Package) - Done added
+	|
+	Utilities (Package) - Done added
+	|
+	Driver (Folder) - Done added
+	|
+	Targets (Reports) - Done added
+	|
+	pom.xml - Done added
+	
+=============================================
+STEP 6: Adding Logs using log4j properties.
+=============================================
+Step 1 : add the mention below file in your log4j.properties
+
+# Root logger option
+log4j.rootLogger=INFO, file, stdout
+ 
+# Direct log messages to a log file
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+#log4j.appender.file.File=C:\\logging.log
+log4j.appender.file.File=${user.dir}/logs/restAPI.log
+log4j.appender.file.MaxFileSize=10MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n
+ 
+# Direct log messages to stdout
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.Target=System.out
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n
+
+Step 2 : Create Log folder as name log
+
+Add the mention below dependancy in pom.xml
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+
+=============================================
+STEP 7: How to run tests on desired browser.
+=============================================
+Create config.properties file in your project.
+
+add these code in your config.properties
+
+browser = chrome
+chromepath = 
+iepath =
+firefoxpath =
+
+Step 2 : now modify your base class and create properties variable as
+
+public Properties configProp;
+
+Add mention below code in your Steps.java
+
+@Before //Hooks in Cucumber
+	public void setup() throws IOException {
+		
+		//reading properties file
+		configProp = new Properties();
+		FileInputStream configPropFile = new FileInputStream("config.properties");
+		configProp.load(configPropFile);
+		
+		logger = Logger.getLogger("Cucumber BDD Framework !!!"); //added logger
+		PropertyConfigurator.configure("log4j.properties"); //added logger
+		
+		String br = configProp.getProperty("browser");
+		
+		if(br.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
+			driver = new ChromeDriver();
+			logger.info("********** Launching Chrome Browser **********");
+		}
+		else if(br.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", configProp.getProperty("firefoxpath"));
+			driver = new FirefoxDriver();
+			logger.info("********** Launching Firefox Browser **********");
+		}
+		else if(br.equals("ie")) {
+			System.setProperty("webdriver.ie.driver", configProp.getProperty("iepath"));
+			driver = new FirefoxDriver();
+			logger.info("********** Launching Internet Explorer Browser **********");
+		}
+		
+		
+		logger.info("********** Launching URL **********");
+	}
+	
+
+Step 3 :	How to run pom.xml as maven based build.
+
+Step 4 : How to commit your code in github account.
+GIT HUB URL : https://github.com/Bangia/cucumber_BDD_framework_web_application.git
+
+=======================	
+Test Cases : SAMPLE
+=======================	
+
+1. Successful Login with Valid Credentials.
+~ Done
+
+2. Login Mutiple login id as Data Driven Approach
+Done
+
+3. Add new customer
+~ Done
+
+4. Search customer by email id
+~ Done
+
+5. Search customer by name
+~ Done
+
+https://github.com/pavanoltraining/nopCommerceV1/blob/master/src/test/java/com/nopcommerce/pageObjects/AddcustomerPage.java
+
+https://stackoverflow.com/questions/28216306/how-to-select-from-a-dropdown-using-pom-selenium
+
+
+
+==========================================

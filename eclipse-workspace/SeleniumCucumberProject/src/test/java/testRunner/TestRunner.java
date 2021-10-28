@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		   glue ="stepDefinitions",
 		   dryRun= false, //true to check that code is fine, else make false as Live run
 		   monochrome = true,  //to disable unwanted data
-		   tags= "@regression", //OR operator
+		   tags= "@smoke", //OR operator
 		   // tags= "@sanity","@regression", //AND operator
 		   plugin= {"pretty","html:test-output"}
 		   

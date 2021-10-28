@@ -148,6 +148,8 @@ public class Steps extends BaseClass {
 	   String email = customerName()+"@gmil.com";
 	   addCust.setName(email);
 	   
+	   //Password
+	   
 	   
 	}
 

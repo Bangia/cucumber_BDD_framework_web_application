@@ -1,6 +1,6 @@
 Feature: Login
 
-@sanity
+@smoke
 Scenario: Successful Login with Valid Credentials.
 	Given Launch your Chrome Browser
 	When Open URL  as "https://admin-demo.nopcommerce.com/"
